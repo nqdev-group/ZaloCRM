@@ -1,0 +1,22 @@
+{
+  "name": "zalo-crm",
+  "version": "1.0.0",
+  "description": "Zalo CRM is a customer relationship management (CRM) system designed to help businesses manage their interactions with customers and clients. It provides tools for organizing customer data, tracking sales and marketing activities, and improving customer service.",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "turbo run dev --parallel"
+  },
+  "devDependencies": {
+    "rimraf": "^6.1.3",
+    "turbo": "^2.9.6",
+    "typescript": "^5.7.3"
+  },
+  "packageManager": "yarn@4.14.1",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

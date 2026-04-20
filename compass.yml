@@ -1,0 +1,16 @@
+name: ZaloCRM
+id: ari:cloud:compass:d080ee26-f21d-4730-84de-98c025104c05:component/e09ef9ad-8d69-4877-b0ee-7395c9ca13a3/d98c7032-b69c-44a2-9abd-8ac1c4c2f1ec
+description: Multi-Account Zalo Management — Real-time chat, CRM, appointments, API & webhooks
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/nqdev-group/ZaloCRM
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+customFields: null
